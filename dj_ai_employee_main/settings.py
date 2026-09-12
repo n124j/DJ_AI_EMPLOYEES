@@ -137,3 +137,10 @@ MAILERS = {
 LOGIN_REDIRECT_URL="/orders/"
 LOGOUT_REDIRECT_URL="/login/"
 LOGIN_URL="/login/"
+
+ANTHROPIC_API_KEY=config("ANTHROPIC_API_KEY")
+ANTHROPIC_MODEL=config("ANTHROPIC_MODEL")
+
+CSRF_TRUSTED_ORIGINS = {
+    "https://djangoaiemployees-production.up.railway.app"
+}
