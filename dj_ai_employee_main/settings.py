@@ -147,5 +147,5 @@ ANTHROPIC_MODEL=config("ANTHROPIC_MODEL")
 STATICFILES_STORAGE ='whitenoise.storage.StaticFilesStorage'
 
 CSRF_TRUSTED_ORIGINS = {
-    "https://djangoaiemployees-production.up.railway.app"
+    "https://web-production-23ee3.up.railway.app"
 }
