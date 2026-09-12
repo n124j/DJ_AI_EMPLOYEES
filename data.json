@@ -1927,7 +1927,7 @@
   "fields": {
     "conversation": 3,
     "event_type": "risk",
-    "message": "Verdict: **Risk Level: LOW**\n\n**Key Signals:**\n- Only 1 refund request across 3 total orders — refund-to-order ratio of 0.33, but this stems from a single isolated incident, not a pattern of repeated activity.",
+    "message": "Verdict: **Risk Level: LOW**\n\n**Key Signals:**\n- Only 1 refund request across 3 total orders â€” refund-to-order ratio of 0.33, but this stems from a single isolated incident, not a pattern of repeated activity.",
     "created_at": "2026-09-11T03:56:28.895Z"
   }
 },
@@ -1937,7 +1937,7 @@
   "fields": {
     "conversation": 3,
     "event_type": "manager",
-    "message": "Decision: ## Manager Decision: Deny Refund (Duplicate Request)\n\n**Reasoning:**\n\n1. **Duplicate claim** — This is the same Order #7 for which a refund was already **approved on 10 Mar 2025** for a cooling issue.",
+    "message": "Decision: ## Manager Decision: Deny Refund (Duplicate Request)\n\n**Reasoning:**\n\n1. **Duplicate claim** â€” This is the same Order #7 for which a refund was already **approved on 10 Mar 2025** for a cooling issue.",
     "created_at": "2026-09-11T03:56:34.958Z"
   }
 },
@@ -1947,7 +1947,7 @@
   "fields": {
     "conversation": 3,
     "event_type": "tool_result",
-    "message": "escalate_to_manager returned: ## Manager Decision: Deny Refund (Duplicate Request)\n\n**Reasoning:**\n\n1. **Duplicate claim** — This is the same Order #7 for which a refund was already **approved on 10 Mar 2025** for a cooling issue.",
+    "message": "escalate_to_manager returned: ## Manager Decision: Deny Refund (Duplicate Request)\n\n**Reasoning:**\n\n1. **Duplicate claim** â€” This is the same Order #7 for which a refund was already **approved on 10 Mar 2025** for a cooling issue.",
     "created_at": "2026-09-11T03:56:34.964Z"
   }
 },
@@ -2177,7 +2177,7 @@
   "fields": {
     "conversation": 4,
     "event_type": "manager",
-    "message": "Decision: **Decision: Deny refund**\n\n**Reason:**\nWhile the fraud risk assessment came back LOW — the customer has a clean, low-volume order/refund history with no red flags of abuse — this request falls far out",
+    "message": "Decision: **Decision: Deny refund**\n\n**Reason:**\nWhile the fraud risk assessment came back LOW â€” the customer has a clean, low-volume order/refund history with no red flags of abuse â€” this request falls far out",
     "created_at": "2026-09-12T00:07:26.026Z"
   }
 },
@@ -2187,7 +2187,7 @@
   "fields": {
     "conversation": 4,
     "event_type": "tool_result",
-    "message": "escalate_to_manager returned: **Decision: Deny refund**\n\n**Reason:**\nWhile the fraud risk assessment came back LOW — the customer has a clean, low-volume order/refund history with no red flags of abuse — this request falls far out",
+    "message": "escalate_to_manager returned: **Decision: Deny refund**\n\n**Reason:**\nWhile the fraud risk assessment came back LOW â€” the customer has a clean, low-volume order/refund history with no red flags of abuse â€” this request falls far out",
     "created_at": "2026-09-12T00:07:26.039Z"
   }
 },
@@ -2297,7 +2297,7 @@
   "fields": {
     "conversation": 4,
     "event_type": "risk",
-    "message": "Verdict: - Risk Level: LOW\n\n- Key Signals:\n  - Customer has 4 total orders with only 1 refund request — a 25% refund-to-order ratio, which is on the higher side but not alarming for a single incident.\n  - That",
+    "message": "Verdict: - Risk Level: LOW\n\n- Key Signals:\n  - Customer has 4 total orders with only 1 refund request â€” a 25% refund-to-order ratio, which is on the higher side but not alarming for a single incident.\n  - That",
     "created_at": "2026-09-12T00:08:18.246Z"
   }
 },
@@ -2307,7 +2307,7 @@
   "fields": {
     "conversation": 4,
     "event_type": "manager",
-    "message": "Decision: **Decision: Deny refund**\n\n**Reason:**\nOrder #2 was delivered 549 days ago — well beyond any reasonable warranty or refund window. A full refund on this claim was already reviewed and properly denied ",
+    "message": "Decision: **Decision: Deny refund**\n\n**Reason:**\nOrder #2 was delivered 549 days ago â€” well beyond any reasonable warranty or refund window. A full refund on this claim was already reviewed and properly denied ",
     "created_at": "2026-09-12T00:08:23.088Z"
   }
 },
@@ -2317,7 +2317,7 @@
   "fields": {
     "conversation": 4,
     "event_type": "tool_result",
-    "message": "escalate_to_manager returned: **Decision: Deny refund**\n\n**Reason:**\nOrder #2 was delivered 549 days ago — well beyond any reasonable warranty or refund window. A full refund on this claim was already reviewed and properly denied ",
+    "message": "escalate_to_manager returned: **Decision: Deny refund**\n\n**Reason:**\nOrder #2 was delivered 549 days ago â€” well beyond any reasonable warranty or refund window. A full refund on this claim was already reviewed and properly denied ",
     "created_at": "2026-09-12T00:08:23.102Z"
   }
 },
@@ -2507,7 +2507,7 @@
   "fields": {
     "conversation": 1,
     "event_type": "manager",
-    "message": "Decision: **Decision: Approve refund for Order #6**\n\n**Reasoning:**\n- Fraud risk assessment returned **LOW risk** — customer has a clean, unremarkable history (1 prior refund out of 4 orders, approved legitimat",
+    "message": "Decision: **Decision: Approve refund for Order #6**\n\n**Reasoning:**\n- Fraud risk assessment returned **LOW risk** â€” customer has a clean, unremarkable history (1 prior refund out of 4 orders, approved legitimat",
     "created_at": "2026-09-12T00:09:54.724Z"
   }
 },
@@ -2517,7 +2517,7 @@
   "fields": {
     "conversation": 1,
     "event_type": "tool_result",
-    "message": "escalate_to_manager returned: **Decision: Approve refund for Order #6**\n\n**Reasoning:**\n- Fraud risk assessment returned **LOW risk** — customer has a clean, unremarkable history (1 prior refund out of 4 orders, approved legitimat",
+    "message": "escalate_to_manager returned: **Decision: Approve refund for Order #6**\n\n**Reasoning:**\n- Fraud risk assessment returned **LOW risk** â€” customer has a clean, unremarkable history (1 prior refund out of 4 orders, approved legitimat",
     "created_at": "2026-09-12T00:09:54.735Z"
   }
 },
@@ -2607,7 +2607,7 @@
   "fields": {
     "conversation": 1,
     "event_type": "risk",
-    "message": "Verdict: ## Risk Assessment: User ID 3\n\n- **Risk Level: LOW**\n\n- **Key Signals:**\n  - Only 1 refund request across 4 total orders (25% ratio) — not unusual for a small order count; a single refund does not ind",
+    "message": "Verdict: ## Risk Assessment: User ID 3\n\n- **Risk Level: LOW**\n\n- **Key Signals:**\n  - Only 1 refund request across 4 total orders (25% ratio) â€” not unusual for a small order count; a single refund does not ind",
     "created_at": "2026-09-12T00:10:42.334Z"
   }
 },
@@ -2617,7 +2617,7 @@
   "fields": {
     "conversation": 1,
     "event_type": "manager",
-    "message": "Decision: **Decision: Approve refund for Order #6**\n\n**Reasoning:**\n- Fraud risk assessment came back **LOW** — customer has a clean history (1 prior refund, approved, no disputes or abuse patterns). No reason ",
+    "message": "Decision: **Decision: Approve refund for Order #6**\n\n**Reasoning:**\n- Fraud risk assessment came back **LOW** â€” customer has a clean history (1 prior refund, approved, no disputes or abuse patterns). No reason ",
     "created_at": "2026-09-12T00:10:49.123Z"
   }
 },
@@ -2627,7 +2627,7 @@
   "fields": {
     "conversation": 1,
     "event_type": "tool_result",
-    "message": "escalate_to_manager returned: **Decision: Approve refund for Order #6**\n\n**Reasoning:**\n- Fraud risk assessment came back **LOW** — customer has a clean history (1 prior refund, approved, no disputes or abuse patterns). No reason ",
+    "message": "escalate_to_manager returned: **Decision: Approve refund for Order #6**\n\n**Reasoning:**\n- Fraud risk assessment came back **LOW** â€” customer has a clean history (1 prior refund, approved, no disputes or abuse patterns). No reason ",
     "created_at": "2026-09-12T00:10:49.133Z"
   }
 },
@@ -3027,7 +3027,7 @@
   "fields": {
     "conversation": 1,
     "event_type": "manager",
-    "message": "Decision: **Decision: Approve refund — proceed as already sanctioned by manager.**\n\n**Reasoning:**\n1. **Legitimacy of case:** Order #6 has been in transit for 502 days due to a customs clearance delay — a clear",
+    "message": "Decision: **Decision: Approve refund â€” proceed as already sanctioned by manager.**\n\n**Reasoning:**\n1. **Legitimacy of case:** Order #6 has been in transit for 502 days due to a customs clearance delay â€” a clear",
     "created_at": "2026-09-12T01:54:02.247Z"
   }
 },
@@ -3037,7 +3037,7 @@
   "fields": {
     "conversation": 1,
     "event_type": "tool_result",
-    "message": "escalate_to_manager returned: **Decision: Approve refund — proceed as already sanctioned by manager.**\n\n**Reasoning:**\n1. **Legitimacy of case:** Order #6 has been in transit for 502 days due to a customs clearance delay — a clear",
+    "message": "escalate_to_manager returned: **Decision: Approve refund â€” proceed as already sanctioned by manager.**\n\n**Reasoning:**\n1. **Legitimacy of case:** Order #6 has been in transit for 502 days due to a customs clearance delay â€” a clear",
     "created_at": "2026-09-12T01:54:02.258Z"
   }
 },
