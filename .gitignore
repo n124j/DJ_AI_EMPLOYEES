@@ -1,3 +1,4 @@
 dj_ai_employee_main/.env
 *.sqlite3
 **/__pycache__/
+chroma_db/
